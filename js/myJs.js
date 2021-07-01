@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        title: 'He luu bé!',
+        text: 'Chị có điều này muốn hỏi bé nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu xinh gái quá đi :<<<<<<< ";
+    var text = " Tại vì chị xinh gái quá đi :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho chị lí do bé thích chị đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -121,8 +121,8 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Trà đào hay trà chanh mà trà nào chả ở ngoài quán Mai đi chơi nha bae :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Chị biết mà ^^ Iu bé 300.000',
+                text: "Trà đào hay trà chanh mà trà nào chả ở ngoài quán Mai đi chơi nha bae :v Còn giờ thì chờ gì nữa mà ko inbox cho chị đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/halanhuongxq';
